@@ -12,14 +12,14 @@ $('derecha').on("swiperight",function(){
 		switch(opt)
 		{
 			case 1:
-			navigator.notification.vibrate(1000);
+			navigator.notification.beep(1);
 			break;
 			
 			case 2:
 			navigator.notification.vibrate(1000);
 			break;
 		}
-	},"Aplicacion8","Beep,vibrar,Cancelar");
+	},"Aplicacion7","Beep,Vibrar,Cancelar");
 	
 });
 	},false);
